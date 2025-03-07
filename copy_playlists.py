@@ -9,8 +9,8 @@ from ytmusicapi import setup
 headers_file = "raw_headers.txt"
 
 # === SPOTIFY CONFIGURATION ===
-SPOTIFY_CLIENT_ID = 'Your-Spotify-Client-ID'
-SPOTIFY_CLIENT_SECRET = 'Your-Spotify-Client-Secret'
+SPOTIFY_CLIENT_ID = '13111538309946f8bef3a7a026575d60'
+SPOTIFY_CLIENT_SECRET = '09f52b5dbb84431baa6fe04717ab1eee'
 SPOTIFY_REDIRECT_URI = 'http://127.0.0.1:8888/callback'
 SPOTIFY_SCOPE = "playlist-read-private playlist-read-collaborative user-library-read user-follow-read"  # Added user-follow-read for followed artists
 
